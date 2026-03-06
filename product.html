@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Corgi Fur Keepsake Capsule — A transparent acrylic Corgi with a hidden chamber for your dog's fur. EverPaws memorial keepsake.">
+  <title>Corgi Fur Keepsake Capsule — EverPaws</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🐾</text></svg>">
+</head>
+<body>
+
+  <!-- ── Navigation ── -->
+  <nav class="navbar scrolled" id="navbar">
+    <div class="navbar-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-icon">🐾</span>
+        <span class="logo-text">EverPaws</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html"   class="nav-link">Home</a></li>
+        <li><a href="shop.html"    class="nav-link">Shop</a></li>
+        <li><a href="about.html"   class="nav-link">Our Story</a></li>
+        <li><a href="contact.html" class="nav-link">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <span class="nav-icon" title="Search">🔍</span>
+        <span class="nav-icon cart-badge" data-cart title="Cart">
+          🛒<span class="cart-count" style="display:none">0</span>
+        </span>
+        <div class="hamburger" id="hamburger">
+          <span></span><span></span><span></span>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="mobile-overlay" id="mobileOverlay"></div>
+  <nav class="mobile-nav" id="mobileNav">
+    <a href="index.html"   class="nav-link">Home</a>
+    <a href="shop.html"    class="nav-link">Shop</a>
+    <a href="about.html"   class="nav-link">Our Story</a>
+    <a href="contact.html" class="nav-link">Contact</a>
+  </nav>
+
+  <!-- ── Product Page ── -->
+  <section class="product-page">
+    <div class="container">
+
+      <!-- Breadcrumb -->
+      <div class="breadcrumb fade-up" style="justify-content:flex-start;margin-bottom:32px">
+        <a href="index.html">Home</a>
+        <span>/</span>
+        <a href="shop.html">Shop</a>
+        <span>/</span>
+        <span>Corgi Fur Keepsake Capsule</span>
+      </div>
+
+      <div class="product-layout">
+
+        <!-- ── Gallery ── -->
+        <div class="product-gallery fade-in">
+          <div class="main-image">
+            <img src="images/listing-1.avif" alt="Fur Keepsake Capsule" id="mainProductImg">
+          </div>
+          <div class="thumbnail-strip">
+            <div class="thumbnail active">
+              <img src="images/listing-1.avif" alt="Fur Keepsake Capsule">
+            </div>
+            <div class="thumbnail">
+              <img src="images/listing-2.avif" alt="Fur Keepsake Capsule">
+            </div>
+            <div class="thumbnail">
+              <img src="images/listing-3.avif" alt="Fur Keepsake Capsule">
+            </div>
+            <div class="thumbnail">
+              <img src="images/listing-4.avif" alt="Fur Keepsake Capsule">
+            </div>
+          </div>
+        </div>
+
+        <!-- ── Details ── -->
+        <div class="product-details fade-up delay-2">
+          <div class="product-category">Keepsake Keychains</div>
+          <h1 class="product-title">Fur Keepsake Capsule</h1>
+
+          <div class="product-rating">
+            <div class="stars">★★★★★</div>
+            <span>4.9 (247 reviews)</span>
+          </div>
+
+          <div class="product-price-large" data-price="21.00">$21.00</div>
+          <div class="shipping-note">✈️ &nbsp;Free shipping · Estimated delivery 3–5 business days</div>
+
+          <p style="font-size:1rem;line-height:1.8;margin-bottom:24px;color:var(--text-mid)">
+            A delicate, transparent acrylic fur keepsake capsule with a hidden chamber inside to hold a small lock of your dog's fur. Attach it to your keys, bag, or wear it as a charm — keep their spirit with you every day.
+          </p>
+
+          <!-- Bundle selector -->
+          <div class="form-field" style="margin-bottom:24px">
+            <label>Choose Your Bundle</label>
+            <div style="display:flex;flex-direction:column;gap:10px;margin-top:8px">
+              <button class="variant-option selected" data-variant-id="buy1g1" data-price="21.00" onclick="selectVariant(this)" style="padding:14px 16px;border-radius:10px;text-align:left;border:2px solid var(--warm-text);background:var(--warm-text);color:var(--cream);cursor:pointer">
+                <div style="font-weight:700;font-size:0.95rem">Buy 1 Get 1 Free</div>
+                <div style="font-size:0.82rem;opacity:0.85;margin-top:2px">2 capsules for $21.00 — save $21</div>
+              </button>
+              <button class="variant-option" data-variant-id="buy2g2" data-price="39.99" onclick="selectVariant(this)" style="padding:14px 16px;border-radius:10px;text-align:left;border:2px solid var(--gray-light);background:transparent;color:var(--warm-text);cursor:pointer">
+                <div style="font-weight:700;font-size:0.95rem">Buy 2 Get 2 Free</div>
+                <div style="font-size:0.82rem;color:var(--text-light);margin-top:2px">4 capsules for $39.99 — save $65</div>
+              </button>
+            </div>
+          </div>
+
+          <!-- Add to Cart -->
+          <div class="product-actions" style="margin-bottom:0">
+            <button class="btn btn-primary add-to-cart-btn" style="flex:1;font-size:1rem">Add to Cart — $21.00</button>
+          </div>
+
+          <!-- Reassurance -->
+          <div class="product-reassurance">
+            <strong>We understand how special they were.</strong> Your memorial will be crafted with the utmost care, packed with love, and shipped with a handwritten note celebrating their life.
+          </div>
+
+          <!-- Trust Badges -->
+          <div class="trust-badges">
+            <div class="trust-badge"><span class="icon">🔒</span> Secure checkout</div>
+            <div class="trust-badge"><span class="icon">🔄</span> 30-day guarantee</div>
+            <div class="trust-badge"><span class="icon">💎</span> Premium quality</div>
+            <div class="trust-badge"><span class="icon">✈️</span> Ships in 3–5 days</div>
+          </div>
+
+          <!-- Product Meta -->
+          <div class="product-meta">
+            <div class="meta-row"><span class="label">Material</span><span class="value">High-clarity acrylic with real fur detail</span></div>
+            <div class="meta-row"><span class="label">Size</span><span class="value">Approx. 5–6 cm tall</span></div>
+            <div class="meta-row"><span class="label">Attachment</span><span class="value">Silver-tone keyring included</span></div>
+            <div class="meta-row"><span class="label">Gift Packaging</span><span class="value">Included — velvet pouch + gift card</span></div>
+            <div class="meta-row"><span class="label">SKU</span><span class="value">EP-CORGI-KEY-001</span></div>
+          </div>
+        </div>
+
+      </div>
+
+
+      <!-- ── Reviews ── -->
+      <div style="margin-top:80px;padding-top:60px;border-top:1px solid var(--gray-light)">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:40px;flex-wrap:wrap;gap:16px">
+          <div>
+            <span class="section-tag">Customer Reviews</span>
+            <h2>What Families Are Saying</h2>
+          </div>
+          <div style="text-align:center">
+            <div style="font-family:'Playfair Display',serif;font-size:3rem;font-weight:700;color:var(--warm-text);line-height:1">4.9</div>
+            <div class="stars" style="font-size:1rem">★★★★★</div>
+            <div style="font-size:0.82rem;color:var(--text-light);margin-top:4px">Based on 247 reviews</div>
+          </div>
+        </div>
+
+        <div class="testimonials-grid">
+          <div class="testimonial-card fade-up delay-1">
+            <div class="testimonial-quote-icon">"</div>
+            <div class="stars">★★★★★</div>
+            <p>Really happy with this. The packaging was way nicer than I expected, and the capsule itself is solid — not cheap at all. I've had it on my keys for two months and it still looks brand new.</p>
+            <div class="testimonial-author">
+              <div class="author-avatar">
+                <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=100&q=80" alt="Sarah L." loading="lazy">
+              </div>
+              <div>
+                <div class="author-name">Sarah L.</div>
+                <div class="author-meta">Verified buyer</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card fade-up delay-2">
+            <div class="testimonial-quote-icon">"</div>
+            <div class="stars">★★★★★</div>
+            <p>Bought this as a gift for my girlfriend after her dog passed. She loved it. The little card that came with it was a nice touch. Shipped faster than expected too. Would recommend.</p>
+            <div class="testimonial-author">
+              <div class="author-avatar">
+                <img src="https://images.unsplash.com/photo-1607746882042-944635dfe10e?w=100&q=80" alt="Marcus D." loading="lazy">
+              </div>
+              <div>
+                <div class="author-name">Marcus D.</div>
+                <div class="author-meta">Verified buyer</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card fade-up delay-3">
+            <div class="testimonial-quote-icon">"</div>
+            <div class="stars">★★★★★</div>
+            <p>I was a bit unsure ordering online but the quality surprised me. It's small but feels well made. Looks exactly like the photos. Good communication from the shop too — they answered my question same day.</p>
+            <div class="testimonial-author">
+              <div class="author-avatar">
+                <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&q=80" alt="Emily R." loading="lazy">
+              </div>
+              <div>
+                <div class="author-name">Emily R.</div>
+                <div class="author-meta">Verified buyer</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ── Reassurance Banner ── -->
+  <div class="reassurance-banner" style="margin-top:60px">
+    <div class="reassurance-inner">
+      <div class="reassurance-item"><span class="icon">🤲</span><span>Handcrafted with Care</span></div>
+      <div class="reassurance-divider"></div>
+      <div class="reassurance-item"><span class="icon">🔒</span><span>Secure Checkout</span></div>
+      <div class="reassurance-divider"></div>
+      <div class="reassurance-item"><span class="icon">🔄</span><span>30-Day Guarantee</span></div>
+      <div class="reassurance-divider"></div>
+      <div class="reassurance-item"><span class="icon">💛</span><span>Created with Love</span></div>
+    </div>
+  </div>
+
+  <!-- ── Footer ── -->
+  <footer>
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="logo"><span class="logo-icon">🐾</span><span class="logo-text">EverPaws</span></div>
+        <p>Timeless fur keepsake memorials for the dogs who changed our lives forever.</p>
+        <div class="social-links">
+          <a href="#" class="social-link">📷</a>
+          <a href="#" class="social-link">📘</a>
+          <a href="#" class="social-link">📌</a>
+          <a href="#" class="social-link">🎵</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Shop</h4>
+        <a href="shop.html">All Products</a>
+        <a href="shop.html">Keepsake Keychains</a>
+        <a href="shop.html">Pendant Necklaces</a>
+        <a href="shop.html">Gift Sets</a>
+      </div>
+      <div class="footer-col">
+        <h4>Help</h4>
+        <a href="contact.html">Contact Us</a>
+        <a href="contact.html#faq">FAQ</a>
+        <a href="contact.html#shipping">Shipping & Returns</a>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <a href="about.html">Our Story</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 EverPaws. All rights reserved.</span>
+      <span>Because their paw prints stay forever 🐾</span>
+    </div>
+  </footer>
+
+  <!-- Quick View Modal -->
+  <div class="modal-overlay" id="modalOverlay">
+    <div class="modal-wrap">
+      <button class="modal-close" onclick="closeModal()">✕</button>
+      <div class="modal">
+        <div class="modal-inner">
+          <div class="modal-image"><img src="" alt="Product"></div>
+          <div class="modal-body"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Cart Sidebar -->
+  <div class="cart-sidebar" id="cartSidebar">
+    <div class="cart-sidebar-header">
+      <h3>Your Cart 🐾</h3>
+      <button class="cart-close" onclick="closeCart()">✕</button>
+    </div>
+    <div class="cart-body"></div>
+    <div class="cart-footer">
+      <div class="cart-total">
+        <span>Total</span>
+        <span class="cart-total-amount">$0.00</span>
+      </div>
+      <a href="#" class="btn btn-primary btn-full">Proceed to Checkout 🔒</a>
+    </div>
+  </div>
+
+  <script src="js/shopify.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

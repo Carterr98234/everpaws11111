@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact EverPaws — We're here to help. Reach out with any questions about your order, our products, or our returns policy.">
+  <title>Contact & FAQ — EverPaws</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🐾</text></svg>">
+</head>
+<body>
+
+  <!-- ── Navigation ── -->
+  <nav class="navbar scrolled" id="navbar">
+    <div class="navbar-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-icon">🐾</span>
+        <span class="logo-text">EverPaws</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html"   class="nav-link">Home</a></li>
+        <li><a href="shop.html"    class="nav-link">Shop</a></li>
+        <li><a href="about.html"   class="nav-link">Our Story</a></li>
+        <li><a href="contact.html" class="nav-link active">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <span class="nav-icon">🔍</span>
+        <span class="nav-icon cart-badge" data-cart title="Cart">
+          🛒<span class="cart-count" style="display:none">0</span>
+        </span>
+        <div class="hamburger" id="hamburger">
+          <span></span><span></span><span></span>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="mobile-overlay" id="mobileOverlay"></div>
+  <nav class="mobile-nav" id="mobileNav">
+    <a href="index.html"   class="nav-link">Home</a>
+    <a href="shop.html"    class="nav-link">Shop</a>
+    <a href="about.html"   class="nav-link">Our Story</a>
+    <a href="contact.html" class="nav-link">Contact</a>
+  </nav>
+
+  <!-- ── Page Header ── -->
+  <div class="page-header">
+    <span class="section-tag fade-up">We're Here for You</span>
+    <h1 class="fade-up delay-1">Get in Touch</h1>
+    <p class="fade-up delay-2">We understand how much this means to you. Reach out anytime — our team responds within 24 hours, 7 days a week.</p>
+    <div class="breadcrumb fade-up delay-3">
+      <a href="index.html">Home</a><span>/</span><span>Contact</span>
+    </div>
+  </div>
+
+  <!-- ── Contact Layout ── -->
+  <div class="container">
+    <div class="contact-layout">
+
+      <!-- Contact Info -->
+      <div>
+        <span class="section-tag fade-up">Reach Us</span>
+        <h2 class="fade-up delay-1">We'd Love to Hear from You</h2>
+        <p class="fade-up delay-2">Whether you have a question about your order, need help choosing the right keepsake, or simply want to share your dog's story — we are here, and we care deeply.</p>
+
+        <div class="contact-method fade-up delay-2">
+          <div class="contact-method-icon">📧</div>
+          <div>
+            <h4>Email Us</h4>
+            <p>hello@everpaws.com<br>Responses within 24 hours</p>
+          </div>
+        </div>
+
+        <div class="contact-method fade-up delay-3">
+          <div class="contact-method-icon">💬</div>
+          <div>
+            <h4>Live Chat</h4>
+            <p>Available Mon–Fri, 9am–6pm EST<br>Click the chat icon on any page</p>
+          </div>
+        </div>
+
+        <div class="contact-method fade-up delay-4">
+          <div class="contact-method-icon">📱</div>
+          <div>
+            <h4>Social Media</h4>
+            <p>@everpaws on Instagram & Facebook<br>DMs welcome anytime</p>
+          </div>
+        </div>
+
+        <div style="background:var(--blush-pale);border-radius:var(--radius-lg);padding:28px;margin-top:32px" class="fade-up delay-4">
+          <h4 style="margin-bottom:10px;font-size:1rem">💛 A Note from Our Team</h4>
+          <p style="font-size:0.9rem;line-height:1.75">We know that reaching out during a time of grief takes courage. Please know that every message we receive is read with care and responded to with empathy. You are not alone, and your dog's memory matters to us too.</p>
+        </div>
+      </div>
+
+      <!-- Contact Form -->
+      <div class="contact-form-wrap fade-up delay-2">
+        <h3>Send Us a Message</h3>
+        <form class="contact-form" onsubmit="return false">
+          <div class="form-row">
+            <div class="form-field">
+              <label for="c-name">Your Name</label>
+              <input type="text" id="c-name" placeholder="Jane Smith" required>
+            </div>
+            <div class="form-field">
+              <label for="c-email">Email Address</label>
+              <input type="email" id="c-email" placeholder="jane@example.com" required>
+            </div>
+          </div>
+
+          <div class="form-field">
+            <label for="c-subject">Subject</label>
+            <select id="c-subject">
+              <option value="">Select a topic...</option>
+              <option>Order Status / Tracking</option>
+              <option>Product Question</option>
+              <option>Returns & Refunds</option>
+              <option>Customization Help</option>
+              <option>Share My Dog's Story</option>
+              <option>Other</option>
+            </select>
+          </div>
+
+          <div class="form-field">
+            <label for="c-order">Order Number <span style="font-weight:400;text-transform:none;font-size:0.8rem">(if applicable)</span></label>
+            <input type="text" id="c-order" placeholder="EP-12345">
+          </div>
+
+          <div class="form-field">
+            <label for="c-msg">Your Message</label>
+            <textarea id="c-msg" rows="5" placeholder="Tell us how we can help, or share your dog's story with us..." required></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-full">Send Message 💛</button>
+          <p style="font-size:0.78rem;color:var(--text-light);text-align:center;margin-top:12px">We respond to every message within 24 hours, 7 days a week.</p>
+        </form>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ── FAQ ── -->
+  <section class="faq-section" id="faq">
+    <div class="container-sm">
+      <div class="text-center" style="margin-bottom:48px">
+        <span class="section-tag fade-up">FAQ</span>
+        <h2 class="fade-up delay-1">Frequently Asked Questions</h2>
+        <p class="fade-up delay-2" style="max-width:500px;margin:0 auto">Everything you need to know about our keepsakes, ordering process, and how to make the most of your memorial.</p>
+      </div>
+
+      <div class="fade-up delay-1">
+
+        <div class="faq-item">
+          <div class="faq-question">
+            <h4>How do the fur keepsake capsules work?</h4>
+            <div class="faq-icon">+</div>
+          </div>
+          <div class="faq-answer">
+            <p>Each EverPaws capsule is a beautifully detailed acrylic sculpture of your dog's breed. Inside the sculpture is a small hidden chamber designed to hold a lock of your dog's fur. When your order arrives, you simply open the chamber (instructions included), place a small amount of fur inside, and close it. The capsule then becomes a wearable, carriable memorial.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            <h4>How much fur do I need to include?</h4>
+            <div class="faq-icon">+</div>
+          </div>
+          <div class="faq-answer">
+            <p>Only a very small amount — roughly the size of a coin. The chamber is intentionally compact to keep the capsule elegant and wearable. You can use fur collected from a brush, grooming, or saved from a haircut. If you don't have fur available, we also offer a "Gift Mode" option where we include a soft placeholder and instructions so the recipient can fill it themselves.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            <h4>How long does shipping take?</h4>
+            <div class="faq-icon">+</div>
+          </div>
+          <div class="faq-answer">
+            <p>Orders typically ship within 1–2 business days and arrive within 3–5 business days (domestic). International orders take 7–14 business days. We know how meaningful these orders are, so we prioritize processing as quickly as possible. You'll receive tracking information as soon as your order ships.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            <h4>Can I get a refund or exchange?</h4>
+            <div class="faq-icon">+</div>
+          </div>
+          <div class="faq-answer">
+            <p>Absolutely. We offer a 30-day satisfaction guarantee on all orders. If your keepsake arrives damaged, isn't as described, or simply isn't right for you — contact us and we'll arrange a replacement or full refund, no questions asked. We want you to feel completely at peace with your purchase.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            <h4>Do you offer customization (names, dates, messages)?</h4>
+            <div class="faq-icon">+</div>
+          </div>
+          <div class="faq-answer">
+            <p>Yes! Every order includes a personalized gift card printed with your dog's name, birth and passing dates, and a short memorial message of your choosing (up to 100 characters). This card is tucked inside the gift box so you or the recipient can keep it alongside the keepsake.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            <h4>What breeds are currently available?</h4>
+            <div class="faq-icon">+</div>
+          </div>
+          <div class="faq-answer">
+            <p>We currently offer: Corgi, Schnauzer, Golden Retriever, Yorkshire Terrier, Pomeranian, Husky, Westie (West Highland Terrier), and Shiba Inu. We're continuously adding new breeds — if yours isn't listed, contact us and we'll let you know when it's coming, or add you to our breed waitlist.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            <h4>Is the packaging gift-ready?</h4>
+            <div class="faq-icon">+</div>
+          </div>
+          <div class="faq-answer">
+            <p>Yes — every EverPaws order ships in beautiful packaging: a matte gift box, a velvet pouch for the capsule, a personalized gift card, and a handwritten note from our team. No extra steps needed — it's ready to give exactly as it arrives.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">
+            <h4>Do you ship internationally?</h4>
+            <div class="faq-icon">+</div>
+          </div>
+          <div class="faq-answer">
+            <p>Yes, we ship worldwide. International delivery typically takes 7–14 business days. Shipping costs are calculated at checkout based on destination. All international orders include tracking. Please note that import duties may apply depending on your country.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Shipping & Returns ── -->
+  <section class="section" id="shipping">
+    <div class="container-sm">
+      <div class="text-center" style="margin-bottom:48px">
+        <span class="section-tag fade-up">Policies</span>
+        <h2 class="fade-up delay-1">Shipping & Returns</h2>
+      </div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:32px">
+        <div style="background:var(--cream-card);border-radius:var(--radius-lg);padding:32px;box-shadow:var(--shadow-soft)" class="fade-up delay-1">
+          <div style="font-size:2rem;margin-bottom:16px">✈️</div>
+          <h3 style="margin-bottom:12px;font-size:1.1rem">Shipping Policy</h3>
+          <ul style="list-style:none;padding:0">
+            <li style="padding:7px 0;border-bottom:1px solid var(--gray-light);font-size:0.9rem;color:var(--text-mid)">🇺🇸 Domestic: 3–5 business days</li>
+            <li style="padding:7px 0;border-bottom:1px solid var(--gray-light);font-size:0.9rem;color:var(--text-mid)">🌍 International: 7–14 business days</li>
+            <li style="padding:7px 0;border-bottom:1px solid var(--gray-light);font-size:0.9rem;color:var(--text-mid)">Free shipping on orders over $60</li>
+            <li style="padding:7px 0;border-bottom:1px solid var(--gray-light);font-size:0.9rem;color:var(--text-mid)">All orders include tracking</li>
+            <li style="padding:7px 0;font-size:0.9rem;color:var(--text-mid)">Orders ship within 1–2 business days</li>
+          </ul>
+        </div>
+        <div style="background:var(--cream-card);border-radius:var(--radius-lg);padding:32px;box-shadow:var(--shadow-soft)" class="fade-up delay-2">
+          <div style="font-size:2rem;margin-bottom:16px">🔄</div>
+          <h3 style="margin-bottom:12px;font-size:1.1rem">Returns & Refunds</h3>
+          <ul style="list-style:none;padding:0">
+            <li style="padding:7px 0;border-bottom:1px solid var(--gray-light);font-size:0.9rem;color:var(--text-mid)">30-day satisfaction guarantee</li>
+            <li style="padding:7px 0;border-bottom:1px solid var(--gray-light);font-size:0.9rem;color:var(--text-mid)">Full refund on damaged items</li>
+            <li style="padding:7px 0;border-bottom:1px solid var(--gray-light);font-size:0.9rem;color:var(--text-mid)">Free exchanges within 30 days</li>
+            <li style="padding:7px 0;border-bottom:1px solid var(--gray-light);font-size:0.9rem;color:var(--text-mid)">Email hello@everpaws.com to start a return</li>
+            <li style="padding:7px 0;font-size:0.9rem;color:var(--text-mid)">Refunds processed within 5–7 business days</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Footer ── -->
+  <footer>
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="logo"><span class="logo-icon">🐾</span><span class="logo-text">EverPaws</span></div>
+        <p>Timeless fur keepsake memorials for the dogs who changed our lives forever.</p>
+        <div class="social-links">
+          <a href="#" class="social-link">📷</a>
+          <a href="#" class="social-link">📘</a>
+          <a href="#" class="social-link">📌</a>
+          <a href="#" class="social-link">🎵</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Shop</h4>
+        <a href="shop.html">All Products</a>
+        <a href="shop.html">Keepsake Keychains</a>
+        <a href="shop.html">Pendant Necklaces</a>
+        <a href="shop.html">Gift Sets</a>
+      </div>
+      <div class="footer-col">
+        <h4>Help</h4>
+        <a href="contact.html">Contact Us</a>
+        <a href="contact.html#faq">FAQ</a>
+        <a href="contact.html#shipping">Shipping & Returns</a>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <a href="about.html">Our Story</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 EverPaws. All rights reserved.</span>
+      <span>Because their paw prints stay forever 🐾</span>
+    </div>
+  </footer>
+
+  <!-- Cart Sidebar -->
+  <div class="cart-sidebar" id="cartSidebar">
+    <div class="cart-sidebar-header">
+      <h3>Your Cart 🐾</h3>
+      <button class="cart-close" onclick="closeCart()">✕</button>
+    </div>
+    <div class="cart-body"></div>
+    <div class="cart-footer">
+      <div class="cart-total">
+        <span>Total</span>
+        <span class="cart-total-amount">$0.00</span>
+      </div>
+      <a href="#" class="btn btn-primary btn-full">Proceed to Checkout 🔒</a>
+    </div>
+  </div>
+
+  <script src="js/shopify.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
